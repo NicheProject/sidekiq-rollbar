@@ -1,4 +1,5 @@
 require 'sidekiq'
+require 'sidekiq/util'
 
 require "sidekiq/rollbar/version"
 require "sidekiq/rollbar/middleware"
